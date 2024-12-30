@@ -1,29 +1,25 @@
 Clear-Host
 
-# Yazıların Başlangıcı
-Write-Host ""
-Write-Host ""
-Write-Host -ForegroundColor Red " ooooooooo.                       o8o        .o8";                                            
-Write-Host -ForegroundColor Red " `888   `Y88.                     `"'       "888";                                            
-Write-Host -ForegroundColor Red "  888   .d88'  .ooooo.   .oooo.o oooo   .oooo888   .ooooo.  ooo. .oo.    .ooooo.   .ooooo. ";  
-Write-Host -ForegroundColor Red "  888ooo88P'  d88' `88b d88(  "8 `888  d88' `888  d88' `88b `888P"Y88b  d88' `"Y8 d88' `88b "; 
-Write-Host -ForegroundColor Red " 888`88b.    888ooo888 `"Y88b.   888  888   888  888ooo888  888   888  888       888ooo888  ";
-Write-Host -ForegroundColor Red " 888  `88b.  888    .o o.  )88b  888  888   888  888    .o  888   888  888   .o8 888    .o  ";
-Write-Host -ForegroundColor Red " o888o  o888o `Y8bod8P' 8""888P' o888o `Y8bod88P" `Y8bod8P' o888o o888o `Y8bod8P' `Y8bod8P' ";
-Write-Host -ForegroundColor Red " Residence anticheat 2024 yılından beri hizmet vermektedir.";
-Write-Host -ForegroundColor Red " Özel olarak profesyonel developerimiz mirai tarafından yapılmıştır.";
-Write-Host -ForegroundColor Red " Fivem sunucuları için kodlanan anti cheatımız";
-Write-Host -ForegroundColor Red " Aynı zamanda minecraft ve csgo sunucularında hizmet vermektedir.";
-Write-Host -ForegroundColor Red " Sizde bu koda sahip olmak isterseniz Mirailah ile iletişime geçebilirsiniz.";
-Write-Host -ForegroundColor Red " discord.gg/residencepriv ";
-Write-Host ""
+
+Write-Host "";
+Write-Host "";
+Write-Host -ForegroundColor Red " ooooooooo.                      o8o        .o8";
+Write-Host -ForegroundColor Red " 888   `Y88.                     `"'       "888";
+Write-Host -ForegroundColor Red " 888   .d88'  .ooooo.   .oooo.o oooo   .oooo888   .ooooo.  ooo. .oo.    .ooooo.   .ooooo.";
+Write-Host -ForegroundColor Red " 888ooo88P'  d88' `88b d88(  "8 `888  d88' `888  d88' `88b `888P"Y88b  d88' `"Y8 d88' `88b";
+Write-Host -ForegroundColor Red " 888`88b.    888ooo888 `"Y88b.   888  888   888  888ooo888  888   888  888       888ooo888";
+Write-Host -ForegroundColor Red " 888  `88b.  888    .o o.  )88b  888  888   888  888    .o  888   888  888   .o8 888    .o   ";
+Write-Host -ForegroundColor Red " o888o  o888o `Y8bod8P' 8""888P' o888o `Y8bod88P" `Y8bod8P' o888o o888o `Y8bod8P' `Y8bod8P'  ";
+Write-Host "";
+Write-Host -ForegroundColor Blue "   Made By Mirai / Residence For You - " -NoNewLine
+Write-Host -ForegroundColor Red "discord.gg/residencepriv";
+Write-Host "";
 
 
-
-# Tehdit Tespiti Bilgilerini Alıp Seçilen Alanları Gösterme
+Get threat detection information and select desired fields
 $threats = Get-MpThreatDetection | Select-Object InitialDetectionTime, LastThreatStatusChangeTime, ProcessName, Resources
 
-# Bu bilgileri GridView ile Görüntüleme
+Display the information in a grid view
 $threats | Out-GridView -PassThru -Title 'Windows Security 000x16x3b'
 
                                                                                             
