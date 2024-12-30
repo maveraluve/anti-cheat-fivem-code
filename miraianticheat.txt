@@ -3,7 +3,26 @@ Clear-Host
 
 Write-Host "";
 Write-Host "";
-Write-Host -ForegroundColor Red " Mirai anticheat 2024 yılından beri hizmet vermektedir.";
+Write-Host -ForegroundColor Red "███████████████████████████";
+Write-Host -ForegroundColor Red "███████▀▀▀░░░░░░░▀▀▀███████";
+Write-Host -ForegroundColor Red "████▀░░░░░░░░░░░░░░░░░▀████";
+Write-Host -ForegroundColor Red "███│░░░░░░░░░░░░░░░░░░░│███";
+Write-Host -ForegroundColor Red "██▌│░░░░░░░░░░░░░░░░░░░│▐██";
+Write-Host -ForegroundColor Red "██░└┐░░░░░░░░░░░░░░░░░┌┘░██";
+Write-Host -ForegroundColor Red "██░░└┐░░░░░░░░░░░░░░░┌┘░░██";
+Write-Host -ForegroundColor Red "██░░┌┘▄▄▄▄▄░░░░░▄▄▄▄▄└┐░░██";
+Write-Host -ForegroundColor Red "██▌░│██████▌░░░▐██████│░▐██";
+Write-Host -ForegroundColor Red "███░│▐███▀▀░░▄░░▀▀███▌│░███";
+Write-Host -ForegroundColor Red "██▀─┘░░░░░░░▐█▌░░░░░░░└─▀██";
+Write-Host -ForegroundColor Red "██▄░░░▄▄▄▓░░▀█▀░░▓▄▄▄░░░▄██";
+Write-Host -ForegroundColor Red "████▄─┘██▌░░░░░░░▐██└─▄████";
+Write-Host -ForegroundColor Red "█████░░▐█─┬┬┬┬┬┬┬─█▌░░█████";
+Write-Host -ForegroundColor Red "████▌░░░▀┬┼┼┼┼┼┼┼┬▀░░░▐████";
+Write-Host -ForegroundColor Red "█████▄░░░└┴┴┴┴┴┴┴┘░░░▄█████";
+Write-Host -ForegroundColor Red "███████▄░░░░░░░░░░░▄███████";
+Write-Host -ForegroundColor Red "██████████▄▄▄▄▄▄▄██████████";
+Write-Host -ForegroundColor Red "███████████████████████████";
+Write-Host -ForegroundColor Red " Residence anticheat 2024 yılından beri hizmet vermektedir.";
 Write-Host -ForegroundColor Red " Özel olarak profesyonel developerimiz mirai tarafından yapılmıştır.";
 Write-Host -ForegroundColor Red " Fivem sunucuları için kodlanan anti cheatımız";
 Write-Host -ForegroundColor Red " Aynı zamanda minecraft ve csgo sunucularında hizmet vermektedir.";
@@ -13,7 +32,7 @@ Write-Host "";
 Write-Host -ForegroundColor Blue "   Made By Mirai / Residence For You - " -NoNewLine
 Write-Host -ForegroundColor Red "discord.gg/residencepriv";
 Write-Host "";
-Write-Host "MİRAİ-RESİDENCE".ToUpper() -ForegroundColor Red
+
 
 Get threat detection information and select desired fields
 $threats = Get-MpThreatDetection | Select-Object InitialDetectionTime, LastThreatStatusChangeTime, ProcessName, Resources
