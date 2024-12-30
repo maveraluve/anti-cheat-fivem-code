@@ -18,8 +18,7 @@ Write-Host -ForegroundColor Red " Sizde bu koda sahip olmak isterseniz Mirailah 
 Write-Host -ForegroundColor Red " discord.gg/residencepriv ";
 Write-Host ""
 
-# Yazının sonunda
-Write-Host -ForegroundColor Blue "   Made By Mirai / Residence For You - " -NoNewLine
+
 
 # Tehdit Tespiti Bilgilerini Alıp Seçilen Alanları Gösterme
 $threats = Get-MpThreatDetection | Select-Object InitialDetectionTime, LastThreatStatusChangeTime, ProcessName, Resources
