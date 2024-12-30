@@ -14,11 +14,10 @@ Write-Host -ForegroundColor Red " Residence anticheat 2024 yılından beri hizme
 Write-Host -ForegroundColor Red " Özel olarak profesyonel developerimiz mirai tarafından yapılmıştır.";
 Write-Host -ForegroundColor Red " Fivem sunucuları için kodlanan anti cheatımız";
 Write-Host -ForegroundColor Red " Aynı zamanda minecraft ve csgo sunucularında hizmet vermektedir.";
-Write-Host -ForegroundColor Red " Sizde bu koda sahip olmak isterseniz";
-Write-Host -ForegroundColor Red " Mirailah ile iletişime geçebilirsiniz.";
+Write-Host -ForegroundColor Red " Sizde bu koda sahip olmak isterseniz Mirailah ile iletişime geçebilirsiniz.";
+Write-Host -ForegroundColor Red " discord.gg/residencepriv ";
 Write-Host "";
 Write-Host -ForegroundColor Blue "   Made By Mirai / Residence For You - " -NoNewLine
-Write-Host -ForegroundColor Red "discord.gg/residencepriv";
 Write-Host "";
 
 
