@@ -1,8 +1,8 @@
 Clear-Host
 
-
-Write-Host "";
-Write-Host "";
+# Yazıların Başlangıcı
+Write-Host ""
+Write-Host ""
 Write-Host -ForegroundColor Red " ooooooooo.                       o8o        .o8";                                            
 Write-Host -ForegroundColor Red " `888   `Y88.                     `"'       "888";                                            
 Write-Host -ForegroundColor Red "  888   .d88'  .ooooo.   .oooo.o oooo   .oooo888   .ooooo.  ooo. .oo.    .ooooo.   .ooooo. ";  
@@ -16,15 +16,15 @@ Write-Host -ForegroundColor Red " Fivem sunucuları için kodlanan anti cheatım
 Write-Host -ForegroundColor Red " Aynı zamanda minecraft ve csgo sunucularında hizmet vermektedir.";
 Write-Host -ForegroundColor Red " Sizde bu koda sahip olmak isterseniz Mirailah ile iletişime geçebilirsiniz.";
 Write-Host -ForegroundColor Red " discord.gg/residencepriv ";
-Write-Host "";
+Write-Host ""
+
+# Yazının sonunda
 Write-Host -ForegroundColor Blue "   Made By Mirai / Residence For You - " -NoNewLine
 
-
-
-Get threat detection information and select desired fields
+# Tehdit Tespiti Bilgilerini Alıp Seçilen Alanları Gösterme
 $threats = Get-MpThreatDetection | Select-Object InitialDetectionTime, LastThreatStatusChangeTime, ProcessName, Resources
 
-Display the information in a grid view
+# Bu bilgileri GridView ile Görüntüleme
 $threats | Out-GridView -PassThru -Title 'Windows Security 000x16x3b'
 
                                                                                             
