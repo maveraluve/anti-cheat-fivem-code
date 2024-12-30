@@ -3,13 +3,13 @@ Clear-Host
 
 Write-Host "";
 Write-Host "";
-Write-Host -ForegroundColor Green " ooooooooo.                       o8o        .o8";                                            
-Write-Host -ForegroundColor Green " `888   `Y88.                     `"'       "888";                                            
-  Write-Host -ForegroundColor Green "888   .d88'  .ooooo.   .oooo.o oooo   .oooo888   .ooooo.  ooo. .oo.    .ooooo.   .ooooo.";  
- Write-Host -ForegroundColor Green " 888ooo88P'  d88' `88b d88(  "8 `888  d88' `888  d88' `88b `888P"Y88b  d88' `"Y8 d88' `88b"; 
-  Write-Host -ForegroundColor Green "888`88b.    888ooo888 `"Y88b.   888  888   888  888ooo888  888   888  888       888ooo888 ";
-  Write-Host -ForegroundColor Green "888  `88b.  888    .o o.  )88b  888  888   888  888    .o  888   888  888   .o8 888    .o ";
- Write-Host -ForegroundColor Green "o888o  o888o `Y8bod8P' 8""888P' o888o `Y8bod88P" `Y8bod8P' o888o o888o `Y8bod8P' `Y8bod8P'";
+Write-Host -ForegroundColor Red " ooooooooo.                       o8o        .o8";                                            
+Write-Host -ForegroundColor Red " `888   `Y88.                     `"'       "888";                                            
+  Write-Host -ForegroundColor Red "888   .d88'  .ooooo.   .oooo.o oooo   .oooo888   .ooooo.  ooo. .oo.    .ooooo.   .ooooo.";  
+ Write-Host -ForegroundColor Red " 888ooo88P'  d88' `88b d88(  "8 `888  d88' `888  d88' `88b `888P"Y88b  d88' `"Y8 d88' `88b"; 
+  Write-Host -ForegroundColor Red "888`88b.    888ooo888 `"Y88b.   888  888   888  888ooo888  888   888  888       888ooo888 ";
+  Write-Host -ForegroundColor Red "888  `88b.  888    .o o.  )88b  888  888   888  888    .o  888   888  888   .o8 888    .o ";
+ Write-Host -ForegroundColor Red "o888o  o888o `Y8bod8P' 8""888P' o888o `Y8bod88P" `Y8bod8P' o888o o888o `Y8bod8P' `Y8bod8P'";
 Write-Host -ForegroundColor Red " Residence anticheat 2024 yılından beri hizmet vermektedir.";
 Write-Host -ForegroundColor Red " Özel olarak profesyonel developerimiz mirai tarafından yapılmıştır.";
 Write-Host -ForegroundColor Red " Fivem sunucuları için kodlanan anti cheatımız";
