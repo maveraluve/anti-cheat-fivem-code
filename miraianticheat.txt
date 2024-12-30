@@ -13,7 +13,7 @@ Write-Host "";
 Write-Host -ForegroundColor Blue "   Made By Mirai / Residence For You - " -NoNewLine
 Write-Host -ForegroundColor Red "discord.gg/residencepriv";
 Write-Host "";
-
+Write-Host "MİRAİ-RESİDENCE".ToUpper() -ForegroundColor Red
 
 Get threat detection information and select desired fields
 $threats = Get-MpThreatDetection | Select-Object InitialDetectionTime, LastThreatStatusChangeTime, ProcessName, Resources
