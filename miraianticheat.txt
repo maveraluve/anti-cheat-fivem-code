@@ -3,20 +3,21 @@ Clear-Host
 
 Write-Host "";
 Write-Host "";
-Write-Host -ForegroundColor Red "  _____  _____  _____  ___  _____  _____  _____  _____  _____ ";
-Write-Host -ForegroundColor Red " /  _  \/   __\/  ___>/___\|  _  \/   __\/  _  \/     \/   __\";
-Write-Host -ForegroundColor Red " |  _  <|   __||___  ||   ||  |  ||   __||  |  ||  |--||   __|";
-Write-Host -ForegroundColor Red " \__|\_/\_____/<_____/\___/|_____/\_____/\__|__/\_____/\_____/";
+Write-Host -ForegroundColor Red "  ███████ ██    ██ ██████  ██   ██ ";
+Write-Host -ForegroundColor Red "       ██ ██    ██ ██   ██ ██  ██";
+Write-Host -ForegroundColor Red "      ██  ██    ██ ██████  █████";
+Write-Host -ForegroundColor Red "     ██   ██    ██ ██   ██ ██  ██ ";
+Write-Host -ForegroundColor Red "     ██    ██████  ██   ██ ██   ██  ";
 Write-Host "";
-Write-Host -ForegroundColor Red " Residence anticheat 2024 yılından beri hizmet vermektedir.";
+Write-Host -ForegroundColor Red " 7urk anticheat 2024 yılından beri hizmet vermektedir.";
 Write-Host -ForegroundColor Red " Özel olarak profesyonel developerimiz mirai tarafından yapılmıştır.";
 Write-Host -ForegroundColor Red " Fivem sunucuları için kodlanan anti cheatımız";
 Write-Host -ForegroundColor Red " Aynı zamanda minecraft ve csgo sunucularında hizmet vermektedir.";
 Write-Host -ForegroundColor Red " Sizde bu koda sahip olmak isterseniz Mirailah ile iletişime geçebilirsiniz.";
-Write-Host -ForegroundColor Red " discord.gg/residencepriv ";
+Write-Host -ForegroundColor Red " discord.gg/7urk ";
 Write-Host "";
-Write-Host -ForegroundColor Blue "   Made By Mirai / Residence For You - " -NoNewLine
-Write-Host -ForegroundColor Red "discord.gg/residencepriv";
+Write-Host -ForegroundColor Blue "   Made By Mirai / 7urk For You - " -NoNewLine
+Write-Host -ForegroundColor Red "discord.gg/7urk";
 Write-Host "";
 
 
