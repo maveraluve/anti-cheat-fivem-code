@@ -29,10 +29,5 @@ $threats | Out-GridView -PassThru -Title 'Windows Security 000x16x3b'
 
 
                                                             
-Write-Host -ForegroundColor Red "  __  __ ____    ____  _____ ______     ___[] ____ _____ ____  ";
-Write-Host -ForegroundColor Red " |  \/  |  _ \  / ___|| ____|  _ \ \   / /_ _/ ___| ____/ ___| ";
-Write-Host -ForegroundColor Red " | |\/| | |_) | \___ \|  _| | |_) \ \ / / | | |   |  _| \___ \ ";
-Write-Host -ForegroundColor Red " | |  | |  _ <   ___) | |___|  _ < \ V /  | | |___| |___ ___) | ";
-Write-Host -ForegroundColor Red " |_|  |_|_| \_\ |____/|_____|_| \_\ \_/  |___\____|_____|____/  ";                                                                                           
-                                                                                            
+
                                                                                             
